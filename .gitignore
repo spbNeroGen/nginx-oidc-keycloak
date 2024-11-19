@@ -1,0 +1,28 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+*.env
+
+# Nginx
+*.pid
+*.key
+*.crt
+
+# General sensitive files
+*.key
+*.pem
+*.cert
+*.crt
+secrets/
+.env.*
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.swp
+*.bak
+*.tmp
